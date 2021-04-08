@@ -1,0 +1,390 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.marginer {
+    margin-left: 32%;
+}
+
+.navbar {
+    background: #191722;
+}
+.navbar-brand {
+    color: #6afcfc !important;
+}
+header nav .nav-link {
+    color: #fff !important;
+    margin-right: 15px;
+}
+.navbar-nav .active {
+    color: #6afcfc !important;
+  }
+
+header nav .nav-link:hover {
+    color: #6afcfc !important;
+}
+
+.main-intro-section {
+    background: #100e17;
+    padding-left: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.intro-heading {
+    font-size: 50px;
+    color: white;
+}
+.intro-heading-2 {
+    color: rgb(80, 79, 79);
+}
+.intro-parag {
+    color: #173b29;
+}
+.main-intro-section .contact-sub i{
+    color: white;
+}
+.main-intro-section .contact-sub i:hover{
+    color: rgb(28, 150, 28);
+}
+.main-intro-section .contact-sub a:hover{
+    text-decoration: none;
+}
+
+.main-intro-section .contact-social {
+    padding-top: 7px;
+}
+.main-intro-section .contact-social .fa-facebook {
+    color: #3b5998;
+}
+.main-intro-section .contact-social .fa-twitter {
+    color: #00acee;
+}
+.main-intro-section .contact-social .fa-instagram {
+    color: #3f103b
+}
+.main-intro-section .contact-social .fa-github {
+    color: rgb(109, 107, 107)
+}
+
+.avatar {
+    width: 350px;
+    margin-left: 20%;
+}
+
+
+
+.aboutMe-section {
+    color: #fff;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.aboutMe-section .about-desc {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.aboutMe-section .about-img {
+    margin-left: 10%;
+}
+.aboutMe-section .about-edu {
+    padding-top: 7%;
+}
+.aboutMe-section .about-uni {
+    font-style: italic;
+}
+
+
+.work-section {
+    padding: 5%;
+    background: #100e17;
+    padding-bottom: 15%;
+}
+.work-section .work-heading {
+    text-align: center;
+    margin-bottom: 70px;
+    color: white;
+}
+.work-section .card-img-top {
+    width: 30px;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.work-section .row .shadow-1 {
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skills-section {
+    color: white;
+    background: #100e17;
+}
+.skills-section .skills-heading {
+    padding-bottom: 5%;
+}
+.skills-section .progress {
+    height: 9px;
+}
+.skills-section .progress-label, .percentage {
+    display: inline;
+}
+.skills-section .java-p {
+    padding-left: 375px
+}
+.skills-section .c-p {
+    padding-left: 375px
+}
+.skills-section .python-p {
+    padding-left: 380px
+}
+.skills-section .javascript-p {
+    padding-left: 380px
+}
+.skills-section .php-p {
+    padding-left: 380px
+}
+.skills-section .progress-bar-container {
+    margin-bottom: 3%;
+}
+.skills-section .progress-column {
+    padding-top: 5%;
+    padding-bottom: 25%;
+}
+.skills-section .head-color {
+    color: rgb(121, 119, 119);
+}
+
+
+.projects-section {
+    background: #434346;
+    padding: 9%;
+}
+.projects-section .project-heading {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 5%;
+}
+.projects-section .row .card {
+    color: rgb(207, 202, 202);
+    background: #0d3311;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.projects-section .row .card .card-top-img {
+    width: auto;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+    header nav .navbar-toggler{
+        margin-left: 50%;
+        /* background: #fff; */
+    }
+    
+    .navbar-toggler {
+        background: rgb(110, 109, 109) !important;
+    }
+
+    .main-intro-section .intro-img{
+        margin-top: 10%;
+        margin-right: 70%;
+    }
+
+    .aboutMe-section .about-img {
+        margin-bottom: 5%;
+    }
+
+    .work-section .card {
+        margin-bottom: 5%;
+    }
+
+    .skills-section .progress {
+        width: 100% !important;
+    }
+    .skills-section .other-skills .btn {
+        margin-bottom: 10px;
+    }
+
+    .projects-section {
+        padding: 0;
+    }
+    .projects-section .card {
+        margin-bottom: 7%;
+    }
+    
+    .skills-section .java-p {
+        padding-left: 215px
+    }
+    .skills-section .c-p {
+        padding-left: 210px
+    }
+    .skills-section .python-p {
+        padding-left:195px
+    }
+    .skills-section .javascript-p {
+        padding-left: 175px
+    }
+    .skills-section .php-p {
+        padding-left: 215px
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .marginer {
+        margin-left: 15%;
+    }
+
+    .main-intro-section .intro-img{
+        margin-top: 5%;
+        margin-right: 0;
+    }
+    .main-intro-section .contact-sub a {
+        padding: 0 !important;
+    }
+    .main-intro-section .contact-sub i {
+        padding-right: 5px !important;
+    }
+
+    .aboutMe-section .about-img {
+        margin-top: 15%;
+    }
+
+    .skills-section .row{
+        align-items: flex-start !important;
+    }
+    .skills-section .progress {
+        width: 200%;
+    }
+    .skills-section .btn {
+        margin-bottom: 5% !important;
+    }
+    
+    .projects-section {
+        padding: 0 0 5% 0;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .marginer {
+        margin-left: 80% !important;
+    }
+    .navbar-toggler {
+        background: rgb(110, 109, 109) !important;
+    }
+    .main-intro-section .intro-img{
+        margin-top: 10% !important;
+        margin-left: 0 !important;
+    }
+    .aboutMe-section {
+        padding-bottom: 20% !important;
+    }
+    .aboutMe-section .about-heading {
+        text-align: center !important;
+    }
+    .work-section .work-heading {
+        padding-top: 10%;
+        padding-bottom: 1% !important;
+    }
+    .work-section .card {
+        margin-bottom: 7%;
+    }
+    .skills-section .progress {
+        width: 90% !important;
+    }
+
+    .skills-section .java-p {
+        padding-left: 215px
+    }
+    .skills-section .c-p {
+        padding-left: 210px
+    }
+    .skills-section .python-p {
+        padding-left:195px
+    }
+    .skills-section .javascript-p {
+        padding-left: 175px
+    }
+    .skills-section .php-p {
+        padding-left: 215px
+    }
+
+    .projects-section .project-heading {
+        padding: 10% !important;
+    }
+    .projects-section .card {
+        margin-bottom: 10%;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .navbar-toggler {
+        background: rgb(110, 109, 109) !important;
+    }
+    .marginer {
+        margin-left: 70%;
+    }
+    .intro {
+        text-align: center;
+    }
+    .aboutMe-section {
+        text-align: center;
+    }
+    .work-section .card {
+        margin-bottom: 7%;
+    }
+
+    .skills-section .progress {
+        width: 100%;
+    }
+    .skills-section .java-p {
+        padding-left: 330px
+    }
+    .skills-section .c-p {
+        padding-left: 325px
+    }
+    .skills-section .python-p {
+        padding-left: 310px
+    }
+    .skills-section .javascript-p {
+        padding-left: 290px
+    }
+    .skills-section .php-p {
+        padding-left: 330px
+    }
+
+    .projects-section .project-heading {
+        padding: 10%;
+    }
+    .projects-section .card {
+        margin-bottom: 8%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
