@@ -22,8 +22,10 @@ header nav .nav-link {
   }
 
 header nav .nav-link:hover {
-    color: #6afcfc !important;
+    color: #ffd000 !important;
 }
+
+
 
 .main-intro-section {
     background: #100e17;
@@ -36,10 +38,10 @@ header nav .nav-link:hover {
     color: white;
 }
 .intro-heading-2 {
-    color: rgb(80, 79, 79);
+    color: rgb(126, 126, 126);
 }
 .intro-parag {
-    color: #173b29;
+    color: #287a51;
 }
 .main-intro-section .contact-sub i{
     color: white;
@@ -370,6 +372,11 @@ header nav .nav-link:hover {
         margin-bottom: 8%;
     }
 }
+
+
+
+
+
 
 
 
