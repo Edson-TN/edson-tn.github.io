@@ -25,13 +25,25 @@ header nav .nav-link:hover {
     color: #ffd000 !important;
 }
 
+.new {
+    color: rgb(184, 28, 28);
+}
 
+
+#particles-js {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.intro-content {
+    position: absolute;
+    padding-top: 10%;
+    left: 20%;
+}
 
 .main-intro-section {
     background: #100e17;
-    padding-left: 20%;
-    padding-top: 10%;
-    padding-bottom: 10%;
 }
 .intro-heading {
     font-size: 50px;
@@ -41,7 +53,7 @@ header nav .nav-link:hover {
     color: rgb(126, 126, 126);
 }
 .intro-parag {
-    color: #287a51;
+    color: #2f7a28;
 }
 .main-intro-section .contact-sub i{
     color: white;
@@ -69,10 +81,122 @@ header nav .nav-link:hover {
     color: rgb(109, 107, 107)
 }
 
+
+
 .avatar {
     width: 350px;
     margin-left: 20%;
 }
+
+#sidenav {
+    display: none;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 25%;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+    border: 1px solid #ffffff;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    -webkit-animation: fadeout 1s;
+       -moz-animation: fadeout 1s; /* Firefox < 16 */
+        -ms-animation: fadeout 1s; /* Internet Explorer */
+         -o-animation: fadeout 1s; /* Opera < 12.1 */
+            animation: fadeout 1s;
+  }
+  #sidenav.active {
+    display: block;
+    width: 130px;
+    -webkit-animation: fadein 1s;
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+  }
+  #sidenav.activesecond {
+    display: block;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 25%;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+    border: 0px solid #ffffff;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    -webkit-animation: fadeout 2s;
+       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -ms-animation: fadeout 2s; /* Internet Explorer */
+         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            animation: fadeout 2s;
+  }
+
+  @keyframes fadein {
+    from { width: 0; }
+    to   { width: 130px; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { width: 0; }
+    to   { width: 130px; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { width: 0; }
+    to   { width: 130px; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { width: 0; }
+    to   { width: 130px; }
+}
+
+@keyframes fadeout {
+    from { width: 130px; }
+    to   { width: 0; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeout {
+    from { width: 130px; }
+    to   { width: 0; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeout {
+    from { width: 130px; }
+    to   { width: 0; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeout {
+    from { width: 130px; }
+    to   { width: 0; }
+}
+
+  #sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+  }
+  
+  #sidenav a:hover {
+    color: #064579;
+  }
 
 
 
@@ -197,7 +321,6 @@ header nav .nav-link:hover {
 
     .main-intro-section .intro-img{
         margin-top: 10%;
-        margin-right: 70%;
     }
 
     .aboutMe-section .about-img {
@@ -372,24 +495,6 @@ header nav .nav-link:hover {
         margin-bottom: 8%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

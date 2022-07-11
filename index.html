@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6624b12350.js" crossorigin="anonymous"></script>
     <title>Edson's Portfolio Website</title>
 </head>
 <body>
@@ -37,12 +38,15 @@
         </nav> 
     </header>
     
-    <div class="container-fluid main-intro-section">
-        <div class="row justify-content-center">
-            <div class="col-md-4 intro">
+    <div id="particles-js" class="container-fluid main-intro-section">
+        <div class="intro-content row ">
+            <div class="col-md-7 intro">
                 <h1 class="intro-heading">Hi, I'm Edson</h1>
                 <h2 class="intro-heading-2">Programmer</h2>
-                <p class="intro-parag">Java / C++ / JavaScript / PHP / Python</p>
+                <p class="intro-parag">Java / C++ / JavaScript / PHP /
+                Python</p>
+                
+                <hr style="border: 1px solid white; width: 77%; margin-left: 0;">
 
                 <div class="contact-sub py-3">
                     <i class="fa fa-envelope fa-1x py-2"></i>
@@ -61,13 +65,24 @@
                 </div>
             </div>
 
-            <div class="col-md-3 intro-img">
+            <div class="col-md-5 intro-img">
                 <img src="../images/avatar-circle.png" alt="Edson Avatar" class="avatar">
             </div>
         </div>
     </div>
 
+    
+
     <main>
+        <div id="sidenav">
+            <a href="index.html#">Home</a>
+            <a href="index.html#aboutMe">About Me</a>
+            <a href="index.html#work">Expertise</a>
+            <a href="index.html#skills">Skills</a>
+            <a href="index.html#projects">Projects</a>
+            <a id="position" href="#"></a>
+        </div>
+
         <div class="container-fluid aboutMe-section bg-dark" id="aboutMe">
             <div class="row">
                 <div class="col-md-4 about-img">
@@ -217,6 +232,9 @@
       sr.reveal('.work-section .card');
     </script>
 
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html> 
 
