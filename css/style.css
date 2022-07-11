@@ -96,29 +96,29 @@ header nav .nav-link:hover {
     top: 25%;
     left: 10px;
     background: #eee;
-    overflow-x: hidden;
+    overflow: hidden;
     padding: 8px 0;
     border: 1px solid #ffffff;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     -webkit-animation: fadeout 1s;
-       -moz-animation: fadeout 1s; /* Firefox < 16 */
+        -moz-animation: fadeout 1s; /* Firefox < 16 */
         -ms-animation: fadeout 1s; /* Internet Explorer */
-         -o-animation: fadeout 1s; /* Opera < 12.1 */
+            -o-animation: fadeout 1s; /* Opera < 12.1 */
             animation: fadeout 1s;
-  }
-  #sidenav.active {
+}
+#sidenav.active {
     display: block;
-    width: 130px;
+    width: 55px;
     -webkit-animation: fadein 1s;
-       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -moz-animation: fadein 1s; /* Firefox < 16 */
         -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
+            -o-animation: fadein 1s; /* Opera < 12.1 */
             animation: fadein 1s;
-  }
-  #sidenav.activesecond {
+}
+#sidenav.activesecond {
     display: block;
     width: 0;
     position: fixed;
@@ -129,74 +129,43 @@ header nav .nav-link:hover {
     overflow-x: hidden;
     padding: 8px 0;
     border: 0px solid #ffffff;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     -webkit-animation: fadeout 2s;
-       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -moz-animation: fadeout 2s; /* Firefox < 16 */
         -ms-animation: fadeout 2s; /* Internet Explorer */
-         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            -o-animation: fadeout 2s; /* Opera < 12.1 */
             animation: fadeout 2s;
-  }
-
-  @keyframes fadein {
-    from { width: 0; }
-    to   { width: 130px; }
 }
 
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { width: 0; }
-    to   { width: 130px; }
+#sidenav .logo {
+    text-align: center;
 }
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from { width: 0; }
-    to   { width: 130px; }
+.logo img {
+    width: 70%;
+    margin-bottom: 10px;
 }
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-    from { width: 0; }
-    to   { width: 130px; }
+#sidenav .menu {
+    text-align: center;
 }
-
-@keyframes fadeout {
-    from { width: 130px; }
-    to   { width: 0; }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadeout {
-    from { width: 130px; }
-    to   { width: 0; }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadeout {
-    from { width: 130px; }
-    to   { width: 0; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadeout {
-    from { width: 130px; }
-    to   { width: 0; }
-}
-
-  #sidenav a {
-    padding: 6px 8px 6px 16px;
+#sidenav a {
+    padding: 6px 8px 6px 8px;
     text-decoration: none;
     font-size: 25px;
     color: #2196F3;
     display: block;
-  }
-  
-  #sidenav a:hover {
+}
+#sidenav a:hover {
     color: #064579;
-  }
+}
+#sidenav a.active {
+    background: #064579;
+    color: #eee;
+    border: 1px solid #064579;
+    border-radius: 10px;
+}
 
 
 
@@ -498,5 +467,48 @@ header nav .nav-link:hover {
 
 
 
-
-
+@keyframes fadein {
+    from { width: 0; }
+    to   { width: 50px; }
+    }
+    
+    /* Firefox < 16 */
+    @-moz-keyframes fadein {
+        from { width: 0; }
+        to   { width: 50px; }
+    }
+    
+    /* Safari, Chrome and Opera > 12.1 */
+    @-webkit-keyframes fadein {
+        from { width: 0; }
+        to   { width: 50px; }
+    }
+    
+    /* Internet Explorer */
+    @-ms-keyframes fadein {
+        from { width: 0; }
+        to   { width: 50px; }
+    }
+    
+    @keyframes fadeout {
+        from { width: 50px; }
+        to   { width: 0; }
+    }
+    
+    /* Firefox < 16 */
+    @-moz-keyframes fadeout {
+        from { width: 50px; }
+        to   { width: 0; }
+    }
+    
+    /* Safari, Chrome and Opera > 12.1 */
+    @-webkit-keyframes fadeout {
+        from { width: 50px; }
+        to   { width: 0; }
+    }
+    
+    /* Internet Explorer */
+    @-ms-keyframes fadeout {
+        from { width: 50px; }
+        to   { width: 0; }
+    }
