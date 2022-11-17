@@ -25,6 +25,10 @@ header nav .nav-link:hover {
     color: #ffd000 !important;
 }
 
+.navbar button {
+    background-color: #fff;
+}
+
 .new {
     color: rgb(184, 28, 28);
 }
