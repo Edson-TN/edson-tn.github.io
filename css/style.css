@@ -250,7 +250,7 @@ header nav .nav-link:hover {
     height: 100px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 728px) {
     #particles-js {
         position: relative;
         width: 100%;
@@ -398,7 +398,7 @@ header nav .nav-link:hover {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 390px) {
     #particles-js {
         position: relative;
         width: 100%;
