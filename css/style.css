@@ -406,10 +406,16 @@ header nav .nav-link:hover {
     }
     .intro-content {
         position: absolute;
-        padding-top: 10%;
+        padding-top: 5%;
         left: 10%;
         right: 10%;
         text-align: center;
+    }
+    .avatar {
+        width: 100px;
+        margin-left: 0;
+        margin-top: -200%;
+        z-index: 99;
     }
     
     .main-intro-section {
@@ -432,12 +438,7 @@ header nav .nav-link:hover {
     .intro-parag {
         font-size: 14px;
     }  
-    .avatar {
-        width: 100px;
-        margin-left: 0;
-        margin-top: -245%;
-        z-index: 99;
-    }
+    
     .main-intro-section .intro-content hr {
         width: 50% !important;
         padding-left: 50%;
