@@ -1,0 +1,19 @@
+{
+  "name": "edson-tn.github.io",
+  "version": "1.0.0",
+  "description": "Edson Tembo's Professional Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edson-TN/edson-tn.github.io.git"
+  },
+  "author": "Edson Tembo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edson-TN/edson-tn.github.io/issues"
+  },
+  "homepage": "https://github.com/Edson-TN/edson-tn.github.io#readme"
+}
